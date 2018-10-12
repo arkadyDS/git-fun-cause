@@ -1,1 +1,13 @@
 This is a good enough workshop. Thanks.
+Advanced Git stuff;
+Additional Commands:
+Pull - getting commits by others from a remote repo's branch
+	used onto our computer from GitHub.com
+	must be on the brach you want to pull from
+	performs merge between your branch and upstream
+command: $ git pull
+Fixing fuck ups
+$ git reset --hard <commit>
+DELETES history
+$ git revert <commit> 
+Undoes changes from certain commit
